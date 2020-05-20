@@ -4,6 +4,6 @@ public class Wizyta {
     public String nazwaLekarza;
     public String ImiePacjenta;
     public String NazwiskoPacjenta;
-    public int peselPacjenta;
+    public String peselPacjenta;
 
 }

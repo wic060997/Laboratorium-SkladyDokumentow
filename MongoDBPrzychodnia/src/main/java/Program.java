@@ -44,7 +44,7 @@ public class Program {
         System.out.println(" Podaj nazwisko pacjenta: ");
         wizyta.NazwiskoPacjenta = scanner.nextLine();
         System.out.println(" Podaj pesel pacjenta: ");
-        wizyta.peselPacjenta = Integer.parseInt(scanner.nextLine());
+        wizyta.peselPacjenta = scanner.nextLine();
         System.out.println(" Podaj nazwe lekarza: ");
         wizyta.nazwaLekarza = scanner.nextLine();
 
@@ -66,7 +66,7 @@ public class Program {
         w1._id = 1;
         w1.data = "2020-05-04";
         w1.nazwaLekarza="ginekolog";
-        w1.peselPacjenta=987654321;
+        w1.peselPacjenta="987654321";
         w1.ImiePacjenta="Marian";
         w1.NazwiskoPacjenta="Kowalski";
         Document d1 = new Document("id", w1._id)
@@ -83,7 +83,7 @@ public class Program {
         w2._id = 2;
         w2.data = "2020-05-24";
         w2.nazwaLekarza="ginekolog";
-        w2.peselPacjenta=956321478;
+        w2.peselPacjenta="956321478";
         w2.ImiePacjenta="Piotr";
         w2.NazwiskoPacjenta="Mak";
         Document d2 = new Document("id", w2._id)
@@ -100,7 +100,7 @@ public class Program {
         w3._id = 3;
         w3.data = "2020-05-12";
         w3.nazwaLekarza="ortopeda";
-        w3.peselPacjenta=632598741;
+        w3.peselPacjenta="632598741";
         w3.ImiePacjenta="Natalia";
         w3.NazwiskoPacjenta="Kupa";
         Document d3 = new Document("id", w3._id)
@@ -117,7 +117,7 @@ public class Program {
         w4._id = 4;
         w4.data = "2020-05-07";
         w4.nazwaLekarza="urolog";
-        w4.peselPacjenta=321789654;
+        w4.peselPacjenta="321789654";
         w4.ImiePacjenta="Julka";
         w4.NazwiskoPacjenta="Pawłowska";
         Document d4 = new Document("id", w4._id)
@@ -134,7 +134,7 @@ public class Program {
         w5._id = 5;
         w5.data = "2020-05-01";
         w5.nazwaLekarza="neurolog";
-        w5.peselPacjenta=852147963;
+        w5.peselPacjenta="852147963";
         w5.ImiePacjenta="Filip";
         w5.NazwiskoPacjenta="Laska";
         Document d5 = new Document("id", w5._id)
@@ -151,7 +151,7 @@ public class Program {
         w6._id = 6;
         w6.data = "2020-05-15";
         w6.nazwaLekarza="ortopeda";
-        w6.peselPacjenta=963258741;
+        w6.peselPacjenta="963258741";
         w6.ImiePacjenta="Agnieszka";
         w6.NazwiskoPacjenta="Rak";
         Document d6 = new Document("id", w6._id)
