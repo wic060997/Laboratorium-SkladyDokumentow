@@ -274,7 +274,7 @@ public class Program {
         System.out.println("1 - Dodaj nowa wizytę ");
         System.out.println("2 - Wyświetl wszystkie wizyty ");
         System.out.println("3 - Wyświetl wizytę po jego id ");
-        System.out.println("4 - Zaaktualizuj wizytę");
+        System.out.println("4 - Zaktualizuj wizytę");
         System.out.println("5 - Usuń wizytę");
         System.out.println("6 - Wyświetl wszystkie wizyty danego lekarza ");
         System.out.println("0 - WYJŚCIE\n");
