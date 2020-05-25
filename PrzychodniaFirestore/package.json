@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "felix-couchdb": "^1.0.8",
     "firebase": "^7.14.4",
     "prompt": "^1.0.0",
     "prompt-sync": "^4.2.0"
